@@ -3,7 +3,7 @@ var winston = require("winston");
 require("winston-daily-rotate-file");
 const path = require("path");
 
-const PATH_LOG_FILE = path.join(AppBasePath, "Logs");
+const PATH_LOG_FILE = path.join(AppBasePath, "logs");
 
 //Custom log format
 const logFormat = winston.format.combine(
