@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# API + WEB 
+webapi/Logs/
+webapi/node_modules/
+webapi/package-lock.json
+webapp/node_modules/
+webapp/package-lock.json
