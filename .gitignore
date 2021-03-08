@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # API + WEB 
-webapi/Logs/
+webapi/logs/
 webapi/node_modules/
 webapi/package-lock.json
 webapp/node_modules/
