@@ -26,7 +26,7 @@ module.exports = {
     update: (data) => {
         return new Promise(async(resolve, reject) => {
             try {
-                const user = await User.updateOne({ _id: data._id }, { name: req.body.name }, { upsert: true });
+                const user = await User.updateOne({ _id: data._id }, { name: data.name }, { upsert: true });
                 logger.info(`User record updated successfuly.`);
                 resolve(user);
             } catch (error) {
