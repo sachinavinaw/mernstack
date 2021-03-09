@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const User = require("../../schema/users/userSchema");
+const User = require("../../schema/user/userSchema");
 /**
  * @description :: Login Controller
  * @param  {} "/"
