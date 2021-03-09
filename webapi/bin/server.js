@@ -66,10 +66,10 @@ process.on("uncaughtException", (error) => {
 
 process.on("unhandledRejection", (error) => {
   console.error(error.message);
-  logger.error(error.stack);
+  logger.error(error.message);
 });
 
 process.on("UnhandledPromiseRejectionWarning", (error) => {
   console.error(error.message);
-  logger.error(error.stack);
+  logger.error(error.message);
 });

@@ -1,19 +1,30 @@
 {
   "name": "webapi",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [],
+  "author": "sachinavinaw@gmail.com",
+  "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "moment": "^2.29.1",
-    "mongoose": "^5.11.19",
-    "morgan": "~1.9.1",
+    "express": "^4.17.1",
+    "joi": "^13.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "randomstring": "^1.1.5",
     "underscore": "^1.12.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
-  }
+  },
+  "bin": {
+    "planner-app": "server.js"
+  },
+  "description": ""
 }
